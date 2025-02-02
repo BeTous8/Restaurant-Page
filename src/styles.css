@@ -1,5 +1,191 @@
 /* styles.css */
 body {
-    background-color: rebeccapurple;
+    /* background-color: rebeccapurple; */
+    font-family: "Poppins", serif;
   }
   
+  nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+      
+  }
+
+  nav .logo {
+    background-image: url('https://img.freepik.com/premium-vector/wine-bar-restaurant-vintage-luxury-ornamental-typography-logo-design-with-flourish-ornament_386150-71.jpg?w=996');
+    background-size: cover; /* Ensures the image covers the element */
+    background-position: center; /* Centers the image */
+    width: 150px; /* Set a specific width for the image */
+    height: 150px; /* Set a specific height for the image */
+    border-radius: 50%;
+    margin-left: 10px;
+  }
+
+  nav .navigation {
+    display: flex;
+    justify-content: flex-end;
+    gap: 30px;
+  }
+
+  nav button {
+    
+    background: none;
+    border: none;
+    font-size: 2rem;
+    cursor: grab;
+    font-family: "Macondo", serif;
+    font-weight: 400;
+    font-style: normal;;
+    transition: all 0.3s ease;
+  }
+
+  nav button:hover {
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15), 
+                0 2px 4px rgba(0, 0, 0, 0.1);
+    transform: translateY(-2px); /* Slight lift on hover */
+}
+
+  
+
+
+
+
+.hour,
+.unOrdered,
+.location {
+    width: 1000px;
+    margin: 0 auto;
+    font-size: 1.1rem;
+    line-height: 2.2rem;
+}
+
+.unOrdered {
+    margin-top: -10px;
+}
+
+.intro {
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+}
+
+.intro-para {
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+}
+
+.intro-para p {
+    width: 400px;
+    padding: 40px;
+}
+
+.intro-img {
+    background-image: url('https://img.freepik.com/premium-photo/restaurant-interior-visualization-3d-illustration_375001-9250.jpg?w=740');
+    background-size: cover; /* Ensures the image covers the element */
+    background-position: center; /* Centers the image */
+    width: 400px; /* Set a specific width for the image */
+    height: 600px; /* Set a specific height for the image */
+    border-radius: 10px;
+    margin-top: 40px;
+}
+
+/* .intro p {
+    flex: 0 0 40%;
+    padding: 100px;
+} */
+
+
+#content {
+   background-color: rgb(233, 239, 255);
+}
+
+.container {
+    display: grid;
+}
+
+.topic {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    font-size: 1.2rem;
+    
+}
+
+div h2 {
+    background-color: rgb(252, 183, 55);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.main-course {
+    display: flex;
+    align-items: center;
+    /* gap: 700px; */
+    background-color: aliceblue;
+}
+
+.detail-container {
+    flex: 0 0 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    /* outline: 1px solid red; */
+    font-size: 1.1rem;
+    
+}
+
+.img-container {
+    background-color: rgb(252, 183, 55);
+    width: 50%;
+    height: 220px;
+    /* outline: 1px solid red; */
+    position: absolute;
+    right: -100px;
+    border-radius: 110PX;
+    display: flex;
+    align-items: center;
+}
+
+.food-img,
+.app-img,
+.dess-img {
+    
+    background-size: cover; /* Ensures the image covers the element */
+    background-position: center; /* Centers the image */
+    width: 210px; /* Set a specific width for the image */
+    height: 210px; /* Set a specific height for the image */
+    border-radius: 50%;
+    margin-left: 10px;
+    
+}
+
+.food-img {
+    background-image: url('https://img.freepik.com/free-photo/salmon-pie-served-with-roasted-herbs-vegetables-sour-sauce_140725-1609.jpg?t=st=1737648512~exp=1737652112~hmac=8d47de390e163e5ce3ea9569b187b1cd5cfa090037694e6d94a645b85297c266&w=996');
+}
+
+.app-img {
+    background-image: url('https://static.vecteezy.com/system/resources/previews/010/857/769/non_2x/grilled-bruschetta-with-chicken-rillettes-jamon-and-herbs-delicious-toast-with-chicken-pate-and-different-appetizers-photo.jpg');
+}
+
+.dess-img {
+    background-image: url('https://img.freepik.com/free-photo/chocolate-brownie-cake-with-scoop-ice-cream_155003-433.jpg?t=st=1737673021~exp=1737676621~hmac=412a6a78a3f368ff8a33ad0c572878b0a720270ec8142d594d5b7204eb3c9ef0&w=740');
+}
+
+
+.item-list {
+    display: flex;
+    width: 200px;
+    justify-content: space-between;
+
+}
+
+ul{
+    padding: 0 50px
+}
+
+
+
